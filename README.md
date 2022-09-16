@@ -1,24 +1,47 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# blog-app-rails
 
-Things you may want to cover:
+> Ruby on Rails based blogging application
 
-* Ruby version
 
-* System dependencies
+## Built With
 
-* Configuration
+- Ruby on Rails
+- Postgres Sql
 
-* Database creation
+## Getting Started
 
-* Database initialization
+To get a local copy follow these simple example steps.  
 
-* How to run the test suite
+1.- Open the terminal window and clone the repository using this command:  
+`git clone https://github.com/fernando-silvabr66/blog-app-rails.git` 
 
-* Services (job queues, cache servers, search engines, etc.)
+2.- Change the directory to the school-library directory  
+`cd blog-app-rails`  
+3.- Install the project's dependencies by running this command:   
+`bundle install`
+4.- To run the application the following command
+`rails server`
 
-* Deployment instructions
+## Authors
 
-* ...
+👤 **Fernando César da Silva**
+
+- GitHub: [@fernando-silvabr66](https://github.com/fernando-silvabr66)
+- Twitter: [@fsilvabr1](https://twitter.com/fsilvabr1)
+- LinkedIn: [https://linkedin.com/in/fernando-silvabr66](https://linkedin.com/in/fernando-silvabr66)   
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./LICENSE.md) licensed.
