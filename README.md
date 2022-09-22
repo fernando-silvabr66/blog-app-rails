@@ -24,7 +24,7 @@ To get a local copy follow these simple example steps.
 4.- To run the application the following command
 `rails server`
 
-## Authors
+## Author
 
 👤 **Fernando César da Silva**
 
