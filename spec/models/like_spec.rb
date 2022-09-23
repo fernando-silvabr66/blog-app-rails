@@ -2,8 +2,8 @@ require 'rails_helper'
 
 RSpec.describe Like, type: :model do
   # Create Post and users to add Likes
-  new_post = Post.create(title: 'My first post', author: User.create(name: 'Anyone Else'))
-  other_user = User.create(name: 'Jane Doe')
+  new_post = Post.create(title: 'My first post', author: User.create(name: 'John Doe'))
+  other_user = User.create(name: 'Jane Smith')
   subject { Like.create(author: other_user, post: new_post) }
 
   it 'UpdatesLikesCounter increments post likes_counter' do
