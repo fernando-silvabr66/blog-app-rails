@@ -19,7 +19,7 @@ RSpec.describe 'Users', type: :request do
 
   describe 'GET users/:id/' do
     before(:example) do
-      user = User.create(name: 'David')
+      user = User.create(name: 'John Doe')
       get "/users/#{user.id}/"
     end
 

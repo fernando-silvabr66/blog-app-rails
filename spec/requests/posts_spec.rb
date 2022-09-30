@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe 'Posts', type: :request do
   before(:each) do
-    @user = User.create(name: 'David')
+    @user = User.create(name: 'John Doe')
     @id = @user.id
   end
   describe 'GET /users/:id/posts/' do
