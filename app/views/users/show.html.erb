@@ -1,6 +1,5 @@
-<h1>User#Name placeholder</h1>
-<p>Here is the details of a user given its id</p>
-
+<h1>User <%= @user.name %></h1>
+<p>Here are the details of a user given its id</p>
 <%= link_to '< Back to users', users_path %>
 <%= render @user %>
 
